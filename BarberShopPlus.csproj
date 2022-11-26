@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="View\Inventory\Group\" />
+    <Folder Include="View\Inventory\Brand\" />
+  </ItemGroup>
+
+</Project>
